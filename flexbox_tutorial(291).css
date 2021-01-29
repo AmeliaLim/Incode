@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+  background-color: red;
+  display: flex;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+/* header > ul {
+  display: flex;
+} */
+.main-section-wrapper {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  height: 70%;
+}
+.sidebar {
+  min-width: 200px;
+  flex-grow: 1;
+  background-color: blueviolet;
+}
+.blog-wrapper {
+  min-width: 400px;
+  flex-grow: 8;
+  background-color: chocolate;
+}
